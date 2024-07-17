@@ -54,7 +54,7 @@
     </nav>
     <section>
       <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
+        <div class="carousel-indicators bg-transparent">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
@@ -84,9 +84,9 @@
               alt="..."
               class="img-fluid"
             />
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Ven a disfrutar de nuestro Norte</h3>
-              <p>
+            <div class="carousel-caption d-none d-md-block bg-transparent">
+              <h3 class="bg-transparent">Ven a disfrutar de nuestro Norte</h3>
+              <p class="bg-transparent">
                 Some representative placeholder content for the first slide.
               </p>
             </div>
@@ -98,9 +98,9 @@
               alt="..."
               class="img-fluid"
             />
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Un maravilloso atardecer en Rapa Nui</h3>
-              <p>
+            <div class="carousel-caption d-none d-md-block bg-transparent">
+              <h3 class="bg-transparent">Un maravilloso atardecer en Rapa Nui</h3>
+              <p class="bg-transparent">
                 Some representative placeholder content for the second slide.
               </p>
             </div>
@@ -112,9 +112,9 @@
               alt="..."
               class="img-fluid"
             />
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Disfruta nuestra hermosa zona Sur</h3>
-              <p>
+            <div class="carousel-caption d-none d-md-block bg-transparent">
+              <h3 class="bg-transparent">Disfruta nuestra hermosa zona Sur</h3>
+              <p class="bg-transparent">
                 Some representative placeholder content for the third slide.
               </p>
             </div>
@@ -126,7 +126,7 @@
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon bg-transparent" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button
@@ -135,13 +135,13 @@
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="carousel-control-next-icon bg-transparent" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
     </section>
 
-    <section>
+    <section id="informacion" class="d-none d-sm-none d-md-block">
       <div class="container pt-5">
         <h2 class="text-center fw-bold mb-3">¿Quienes somos?</h2>
         <hr />
@@ -157,9 +157,8 @@
               id="btncheck1"
               autocomplete="off"
             />
-            <label class="boton1 btn btn-outline-primary m-2" for="btncheck1"
-              ><i class="fa-solid fa-plane"></i
-            ></label>
+            <label class="boton1 btn btn-outline-dark m-2 border border-dark-subtle" for="btncheck1"
+              ><i class="fa-solid fa-plane fa-xl"></i></label>
 
             <input
               type="checkbox"
@@ -167,9 +166,8 @@
               id="btncheck2"
               autocomplete="off"
             />
-            <label class="boton2 btn btn-outline-primary m-2" for="btncheck2"
-              ><i class="fa-solid fa-mountain-sun"></i
-            ></label>
+            <label class="boton2 btn btn-outline-dark m-2 border border-dark-subtle"for="btncheck2"
+              ><i class="fa-solid fa-mountain-sun fa-xl"></i></label>
 
             <input
               type="checkbox"
@@ -177,9 +175,8 @@
               id="btncheck3"
               autocomplete="off"
             />
-            <label class="boton3 btn btn-outline-primary m-2" for="btncheck3"
-              ><i class="fa-solid fa-map-location-dot"></i
-            ></label>
+            <label class="boton3 btn btn-outline-dark m-2 border border-dark-subtle" for="btncheck3"
+              ><i class="fa-solid fa-map-location-dot fa-xl"></i></label>
           </div>
           <div class="col-md-4">
             <p class="texto1">
@@ -214,31 +211,31 @@
         <h2 class="text-center fw-bold mb-3">DESTACADOS</h2>
         <hr />
         <div class="card-group">
-  <div class="card m-3">
+  <div class="card border-secondary m-3">
     <img src="assets/img/card1.jpg " class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Lorem ipsum dolor sit amet </h5>
+      <h5 class="card-title text-white">Lorem ipsum dolor sit amet </h5>
       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dicta exercitationem nihil, perspiciatis quisquam minima voluptatem itaque porro! </p>
     </div>
   </div>
-  <div class="card m-3">
+  <div class="card border-secondary m-3">
     <img src="assets/img/card2.jpg " class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Lorem ipsum dolor sit amet </h5>
+      <h5 class="card-title text-white">Lorem ipsum dolor sit amet </h5>
       <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dicta exercitationem nihil, perspiciatis quisquam minima voluptatem itaque porro! </p>
     </div>
   </div>
-  <div class="card m-3">
+  <div class="card border-secondary m-3">
     <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Lorem ipsum dolor</h5>
+      <h5 class="card-title text-white">Lorem ipsum dolor sit amet</h5>
       <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus aspernatur, illum dolores delectus atque a maiores doloremque optio necessitatibus beatae,</p>
     </div>
   </div>
-  <div class="card m-3">
+  <div class="card border-secondary m-3">
     <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+      <h5 class="card-title text-white">Lorem ipsum dolor sit amet</h5>
       <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ipsum adipisci, aspernatur ipsa doloribus laborum obcaecati magni beatae sunt natus</p>
     </div>
   </div>
@@ -250,15 +247,15 @@
         <h2 class="text-center fw-bold mb-3">CONTACTO</h2>
         <hr />
       <div class="mb-3">
-  <label for="formGroupExampleInput" class="form-label">Nombre</label>
+  <label for="formGroupExampleInput" class="form-label fw-bold bg-transparent ">Nombre</label>
   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre completo">
 </div>
 <div class="mb-3">
-  <label for="formGroupExampleInput2" class="form-label">Asunto</label>
+  <label for="formGroupExampleInput2" class="form-label fw-bold bg-transparent">Asunto</label>
   <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Idea principal de contacto">
 </div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+<div class="pb-5">
+  <label for="exampleFormControlTextarea1" class="form-label fw-bold bg-transparent">Mensaje</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Breve mensaje"></textarea>
 </div>
 </div>
