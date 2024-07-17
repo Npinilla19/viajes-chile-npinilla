@@ -22,4 +22,6 @@ $(function () {
   $(".boton3").dblclick(function () {
     $(".texto3").show();
   });
+
+  $("[data-bs-toggle='tooltip']").tooltip();
 });

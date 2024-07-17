@@ -27,10 +27,9 @@
             alt="Logo"
             width="40"
             height="34"
-            class="d-inline-block align-text-top"
-          />
-          Viajes Chile
-        </a>
+            class="d-inline-block align-text-top" 
+          /></a>
+          <a class="viajes fw-bold nav-link" href="#">Viajes Chile</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -258,7 +257,12 @@
   <label for="exampleFormControlTextarea1" class="form-label fw-bold bg-transparent">Mensaje</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Breve mensaje"></textarea>
 </div>
-<button type="button" class="btn btn-dark mb-5">Enviar</button>
+<button type="button" class="btn btn-dark mb-5"
+        data-bs-toggle="tooltip" data-bs-placement="top"
+        data-bs-custom-class="custom-tooltip"
+        data-bs-title="Pronto nos pondremos en contacto.">
+  Enviar
+</button>
 </div>
 
     </section>
@@ -267,13 +271,13 @@
       <div class="container p-4">
         <div class="row">
           <div class="col-md-4 ps-5">
-            <h4>VIAJES CHILE</h4>
+            <h4 class="viajes fw-bold">VIAJES CHILE</h4>
           </div>
           <div class="col-md-8 text-end">
-            <i class="fa-brands fa-square-github fa-2xl"></i>
-            <i class="fa-brands fa-linkedin fa-2xl"></i>
-            <i class="fa-brands fa-square-twitter fa-2xl"></i>
-            <i class="fa-brands fa-square-facebook fa-2xl"></i>
+            <a class="me-2" href="https://github.com/"><i class="fa-brands fa-square-github fa-2xl"></i></a>
+            <a class="me-2" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            <a class="me-2" href="https://x.com/"><i class="fa-brands fa-square-twitter fa-2xl"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
           </div>
         </div>
 
