@@ -3,5 +3,9 @@
 }
 
 nav {
-  background-color: #33b8ff;
+  background-color: #7c7380;
+}
+
+nav .nav-link {
+  color: white;
 }
