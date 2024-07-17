@@ -1,3 +1,7 @@
 nav {
-  background-color: #33B8FF;
+  background-color: #7c7380;
+}
+
+nav .nav-link {
+  color: white;
 }
